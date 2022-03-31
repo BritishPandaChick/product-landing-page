@@ -3,64 +3,90 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Free Code Camp Product Landing Page</title>
+    <title>Crafting Panda</title>
 
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container-fluid">
-      <header id="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/American_Girl_Logo.svg/2560px-American_Girl_Logo.svg.png" alt="American Girl" class="img-fluid"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-link nav-item"><a href="#" class="nav-link">About</a></li>
-                <li class="nav-link nav-item"><a href="#" class="nav-link">Products</a></li>
-                <li class="nav-link nav-item"><a href="#" class="nav-link">Celebration</a></li>
-            </div>
-          </div>
-        </nav>
-      </header>
-  
-      <main>
-        <section id="newsletter">
-          <div class="container">
-            <h2 class="text-center">Headline Goes Here</h2>
-
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-8">
-                <input id="email" type="email" class="form-control" placeholder="Enter your email address" required>
-              </div>
-
-              <div class="col-sm-12 col-md-12 col-lg-4 d-grid gap-2">
-                <button id="submit" class="btn btn-success">Submit</button>
-              </div>
-            </div>            
-          </form>
-          </div>
-        </section>
-
-        <section id="about"></section>
-        <section id="products"></section>
-        <section id="pricing"></section>
-      </main>
-  
-      <footer>
-        <div class="container-fluid">
-          <p class="text-center">&copy; 2018-2022, Sarah Bartley | All Rights Reserved</p>
+    <header id="header">
+      <div class="full-container">
+        <div class="half-container">
+          <img src="https://www.svgheart.com/wp-content/uploads/2020/06/swirly-christmas-tree-free-svg-file.png" id="header-img" alt="Christmas tree with red ornaments and yellow star">
+          <h1>Crafting Panda</h1>
         </div>
-      </footer>
-    </div>
+
+        <div class="half-container">
+          <nav id="nav-bar">
+            <ul>
+              <li><a href="#projects" class="nav-link">Projects</a></li>
+              <li><a href="#classes" class="nav-link">Classes</a></li>
+              <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="newsletter">
+        <div class="full-container">
+          <h2>Sign up for our newsletter!</h2>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" name="email" type="email" placeholder="Enter email here" required>
+            <button id="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="full-container">
+          <h3>Project Ideas</h3>
+          <ul>
+            <li>Feature One</li>
+            <li>Feature Two</li>
+            <li>Feature Three</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="classes">
+        <div class="full-container">
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/p95-250DyBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>        
+      </section>
+
+      <section id="pricing">
+        <div class="full-container">
+          <div class="third-width">
+            <h3>Headline</h3>
+            <h4>Price</h4>
+            <p>As they walked home, Elizabeth related to Jane what she had seen pass between the two gentlemen; but though Jane would have defended either or both, had they appeared to be in the wrong, she could no more explain such behaviour than her sister.</p>
+            <button>Select</button>
+          </div>
+
+          <div class="third-width">
+            <h3>Headline</h3>
+            <h4>Price</h4>
+            <p>As they walked home, Elizabeth related to Jane what she had seen pass between the two gentlemen; but though Jane would have defended either or both, had they appeared to be in the wrong, she could no more explain such behaviour than her sister.</p>
+            <button>Select</button>
+          </div>
+
+          <div class="third-width">
+            <h3>Headline</h3>
+            <h4>Price</h4>
+            <p>As they walked home, Elizabeth related to Jane what she had seen pass between the two gentlemen; but though Jane would have defended either or both, had they appeared to be in the wrong, she could no more explain such behaviour than her sister.</p>
+            <button>Select</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  
+    <footer>
+      <div class="full-container">
+        <p class="text-center">&copy; 2018-2022, Sarah Bartley | All Rights Reserved</p>
+      </div>
+    </footer>
     
     <!--- freeCodeCamp testing -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
