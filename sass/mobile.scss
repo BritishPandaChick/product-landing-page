@@ -1,0 +1,46 @@
+$headline-font: 'Overlock', cursive;
+$paragraph-font: 'PT Sans', sans-serif; 
+$black: #333;
+$dark-sea-green: #94AE89;
+$laurel-green: #A8BCA1;
+$aero-blue: #D5FFD9;
+$yellow-green: #C0DA74;
+$granny-smith: #BEEDAA;
+
+/* === Base Styles === */ 
+body {
+    font-family: $paragraph-font;
+    font-size: 20px;
+    color: $black;
+}
+
+/* === Grid Systems === */ 
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* === Header === */ 
+#header {
+    height: 700px;
+    background-color: $aero-blue;
+}
+
+#header img {
+    width: 90%;
+    border: 2px solid blue;
+}
+
+#header h1 {
+    font-family: $headline-font;
+    font-size: 35px;
+    text-align: center;
+}
+
+#header #nav-bar ul li a {
+    text-decoration: none;
+}
+
+#header #nav-bar ul li a:hover {
+    color: $dark-sea-green;
+}

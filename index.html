@@ -6,17 +6,24 @@
     <title>Crafting Panda</title>
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 1025px)" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" type="text/css" href="assets/css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 641px) and (max-width: 1024px)" type="text/css" href="assets/css/tablet.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overlock:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header id="header">
-      <div class="full-container">
-        <div class="half-container">
+      <div class="full-width">
+        <div class="half-width">
           <img src="https://www.svgheart.com/wp-content/uploads/2020/06/swirly-christmas-tree-free-svg-file.png" id="header-img" alt="Christmas tree with red ornaments and yellow star">
           <h1>Crafting Panda</h1>
         </div>
 
-        <div class="half-container">
+        <div class="half-width">
           <nav id="nav-bar">
             <ul>
               <li><a href="#projects" class="nav-link">Projects</a></li>
@@ -30,8 +37,9 @@
 
     <main>
       <section id="newsletter">
-        <div class="full-container">
+        <div class="full-width">
           <h2>Sign up for our newsletter!</h2>
+
           <form id="form" action="https://www.freecodecamp.com/email-submit">
             <input id="email" name="email" type="email" placeholder="Enter email here" required>
             <button id="submit">Submit</button>
@@ -40,7 +48,7 @@
       </section>
 
       <section id="projects">
-        <div class="full-container">
+        <div class="full-width">
           <h3>Project Ideas</h3>
           <ul>
             <li>Feature One</li>
@@ -51,13 +59,13 @@
       </section>
 
       <section id="classes">
-        <div class="full-container">
+        <div class="full-width">
           <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/p95-250DyBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>        
       </section>
 
       <section id="pricing">
-        <div class="full-container">
+        <div class="full-width">
           <div class="third-width">
             <h3>Headline</h3>
             <h4>Price</h4>
@@ -83,8 +91,8 @@
     </main>
   
     <footer>
-      <div class="full-container">
-        <p class="text-center">&copy; 2018-2022, Sarah Bartley | All Rights Reserved</p>
+      <div class="full-width">
+        <p>&copy; 2018-2022, Sarah Bartley | All Rights Reserved</p>
       </div>
     </footer>
     
