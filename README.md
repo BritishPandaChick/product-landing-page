@@ -13,5 +13,5 @@ I will not be accepting any pull requests.
 
 ## Acknowledgements
 * freeCodeCamp 
-* Coolors 
+* [ColorPalettes.net](https://colorpalettes.net/color-palette-2510/)
 * Sass 

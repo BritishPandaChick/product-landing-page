@@ -1,17 +1,18 @@
 $headline-font: 'Overlock', cursive;
 $paragraph-font: 'PT Sans', sans-serif; 
 $black: #333;
-$dark-sea-green: #94AE89;
-$laurel-green: #A8BCA1;
-$aero-blue: #D5FFD9;
-$yellow-green: #C0DA74;
-$granny-smith: #BEEDAA;
+$light-blue: #d4e3f0;
+$white: #f9ffff;
+$sand: #c8b08b;
+$silver: #9ea2ac;
+$dark-gray: #757c83;
 
 /* === Base Styles === */ 
 body {
     font-family: $paragraph-font;
     font-size: 20px;
     color: $black;
+    background-color: $white;
 }
 
 /* === Grid Systems === */ 
@@ -21,26 +22,125 @@ body {
 }
 
 /* === Header === */ 
-#header {
-    height: 700px;
-    background-color: $aero-blue;
+header {
+    height: 770px;
+    background-color: $light-blue;
 }
 
-#header img {
-    width: 90%;
-    border: 2px solid blue;
+header img {
+    height: 465px;
 }
 
-#header h1 {
+header h1 {
     font-family: $headline-font;
     font-size: 35px;
+    color: $dark-gray;
     text-align: center;
 }
 
-#header #nav-bar ul li a {
-    text-decoration: none;
+header nav ul li {
+    list-style-type: none;
+    padding: 15px;
 }
 
-#header #nav-bar ul li a:hover {
-    color: $dark-sea-green;
+header nav ul li a {
+    text-decoration: none;
+    color: $dark-gray;
+    line-height: 32px;
+}
+
+header nav ul li a:hover {
+    color: $silver;
+}
+
+/* == Newsletter == */
+#newsletter {
+    height: 300px;
+    border: 2px solid $sand;
+    padding: 40px 0;
+}
+
+#newsletter h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: $headline-font;
+    color: $dark-gray;
+}
+
+#newsletter input {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+#newsletter button {
+    background-color: $sand;
+    color: $white;
+    font-size: 20px;
+    width: 30%;
+    padding: 10px;
+}
+
+/* == Projects == */ 
+#projects {
+    padding: 40px 0;
+}
+
+#projects h3 {
+    font-family: $headline-font;
+    font-size: 25px;
+    color: $dark-gray;
+}
+
+#projects ul li {
+    color: $dark-gray;
+}
+
+/*== Classes ==*/ 
+#classes {
+    padding: 40px 0;
+}
+
+#classes #video {
+    height: 300px;
+}
+
+/*== Pricing ==*/ 
+#pricing {
+    padding: 40px 0;
+}
+
+#pricing h3 {
+    font-size: 25px;
+    font-family: $headline-font;
+    color: $dark-gray;
+}
+
+#pricing h4 {
+    font-family: $headline-font;
+    font-size: 20px;
+    color: $dark-gray;
+}
+
+#pricing p {
+    line-height: 32px;
+}
+
+#pricing button {
+    background-color: $sand;
+    font-size: 20px;
+    color: $white;
+    width: 30%;
+    padding: 10px;
+}
+
+/*== Footer ==*/
+footer {
+    background-color: $light-blue;
+    color: $dark-gray;
+    padding: 15px 0;
+}
+
+footer p {
+    font-size: 16px;
 }
