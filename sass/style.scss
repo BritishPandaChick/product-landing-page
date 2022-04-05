@@ -80,5 +80,45 @@ header {
 
 /*== Newsletter ==*/ 
 #newsletter {
-    padding: 80px 0;
+    margin: 140px 0;
+    padding: 80px 0px;
+    height: 350px;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/06/17/40/fabric-3204066_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid red;
+
+    h2 {
+        font-size: 35px;
+        font-family: $headline-font;
+        text-align: center;
+        margin: 85px 0;
+        color: $dark-gray;
+    }
+
+    form {
+        .form-container {
+            margin-left: 400px;
+        }
+
+        input {
+            width: 50%;
+            font-size: 20px;
+            padding: 5px;
+        }
+
+        button {
+            background-color: $dark-gray;
+            border: 1px solid $dark-gray;
+            color: $white;
+            font-size: 20px;
+            padding: 5px;
+        }
+    }
+}
+
+
+#projects {
+    height: 300px;
 }
