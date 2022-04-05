@@ -1,3 +1,57 @@
+/* === Base Styles === */
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  color: #333;
+  background-color: #f9ffff; }
 
+/* === Grid Systems === */
+.full-width {
+  width: 100%;
+  margin: 0 auto; }
+
+.half-width {
+  width: 50%;
+  float: left; }
+
+.third-width {
+  width: 40%;
+  float: left; }
+
+/* === Header === */
+header {
+  background-color: #d4e3f0;
+  background-size: cover;
+  color: #757c83;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: flex-start; }
+  header .logo {
+    width: 10%;
+    float: left; }
+  header img {
+    height: 150px; }
+  header .site-name {
+    width: 40%;
+    float: left;
+    padding: 20px 0; }
+  header h1 {
+    font-size: 45px;
+    font-family: "Overlock", cursive; }
+  header nav ul li {
+    display: inline-block;
+    padding: 50px 40px; }
+  header nav ul li a {
+    color: #757c83;
+    text-decoration: none; }
+  header nav ul li a:hover {
+    color: #9ea2ac; }
+
+/*== Newsletter ==*/
+#newsletter {
+  padding: 80px 0; }
 
 /*# sourceMappingURL=style.css.map */
