@@ -1,0 +1,51 @@
+/* === Sass Variables === */
+/* === Base Styles === */
+body {
+  font-size: 20px;
+  font-family: "PT Sans", sans-serif;
+  color: #333; }
+
+/* === Grid System === */
+.full-width {
+  width: 100%;
+  margin: 0 auto; }
+
+/* == Header == */
+header {
+  background-color: #d4e3f0;
+  background-size: cover;
+  color: #757c83;
+  height: 670px;
+  border: 2px solid red; }
+  header img {
+    height: 370px; }
+  header h1 {
+    font-family: "Overlock", cursive;
+    font-size: 30px;
+    text-align: center; }
+  header nav ul li {
+    line-height: 32px;
+    padding: 5px 0;
+    list-style-type: none; }
+  header nav ul li a {
+    color: #757c83;
+    text-decoration: none; }
+  header nav ul li a:hover {
+    color: #9ea2ac; }
+
+/* == Newsletter == */
+#newsletter {
+  background-image: url("https://cdn.pixabay.com/photo/2018/03/06/17/40/fabric-3204066_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 80%; }
+  #newsletter .form-text {
+    padding: 75px 0; }
+  #newsletter h2 {
+    font-size: 25px;
+    font-family: "Overlock", cursive;
+    color: #757c83;
+    text-align: center; }
+
+/*# sourceMappingURL=mobile.css.map */

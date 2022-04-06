@@ -1,0 +1,76 @@
+/* === Sass Variables === */
+$headline-font: 'Overlock', cursive;
+$paragraph-font: 'PT Sans', sans-serif; 
+$black: #333;
+$light-blue: #d4e3f0;
+$white: #f9ffff;
+$sand: #c8b08b;
+$silver: #9ea2ac;
+$dark-gray: #757c83;
+
+/* === Base Styles === */ 
+body {
+    font-size: 20px;
+    font-family: $paragraph-font;
+    color: $black;
+}
+
+/* === Grid System === */ 
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* == Header == */ 
+header {
+    background-color: $light-blue;
+    background-size: cover;
+    color: $dark-gray;
+    height: 670px;
+    border: 2px solid red;
+
+    img {
+        height: 370px;
+    }
+
+    h1 {
+        font-family: $headline-font;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    nav ul li {
+        line-height: 32px;
+        padding: 5px 0;
+        list-style-type: none;
+    }
+
+    nav ul li a {
+        color: $dark-gray;
+        text-decoration: none;
+    }
+
+    nav ul li a:hover {
+        color: $silver;
+    }
+}
+
+/* == Newsletter == */ 
+#newsletter {
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/06/17/40/fabric-3204066_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 80%;
+    
+    .form-text {
+        padding: 75px 0;
+    }
+
+    h2 {
+        font-size: 25px; 
+        font-family: $headline-font;
+        color: $dark-gray;
+        text-align: center;
+    }
+}
