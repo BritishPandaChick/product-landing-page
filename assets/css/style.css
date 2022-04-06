@@ -78,9 +78,10 @@ header {
     padding: 5px;
     font-family: "PT Sans", sans-serif; }
 
+/* == Projects == */
 #projects {
-  height: 800px;
-  padding: 25px 15px; }
+  height: 850px;
+  padding: 40px; }
   #projects h3 {
     font-size: 30px;
     font-family: "Overlock", cursive;
@@ -98,7 +99,57 @@ header {
   #projects img {
     width: 100%; }
 
+/* == Classes == */
 #classes {
-  border: 2px solid red; }
+  padding: 40px;
+  height: 500px; }
+  #classes h2 {
+    font-size: 35px;
+    font-family: "Overlock", cursive;
+    color: #757c83;
+    text-align: center; }
+  #classes p {
+    line-height: 32px;
+    padding: 0 30px; }
+  #classes iframe {
+    width: 90%;
+    height: 400px; }
+
+/* == Prices ==*/
+#prices {
+  height: 650px;
+  padding: 40px; }
+  #prices .third-width {
+    margin-right: 30px; }
+  #prices h3 {
+    font-family: "Overlock", cursive;
+    text-align: center;
+    color: #757c83;
+    font-size: 30px; }
+  #prices h4 {
+    text-align: center;
+    font-family: "Overlock", cursive;
+    font-size: 25px; }
+  #prices p {
+    line-height: 32px; }
+  #prices button {
+    background-color: #757c83;
+    color: #f9ffff;
+    font-size: 20px;
+    border: 2px solid #757c83;
+    padding: 5px;
+    font-family: "PT Sans", sans-serif; }
+
+/* === Footer === */
+footer {
+  background-color: #d4e3f0;
+  padding: 10px 0;
+  width: 100%; }
+  footer p {
+    color: #757c83;
+    font-size: 16px;
+    text-align: center; }
+
+/* === Media Queries === */
 
 /*# sourceMappingURL=style.css.map */
