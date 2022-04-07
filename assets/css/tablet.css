@@ -5,7 +5,8 @@ body {
   font-family: "PT Sans", sans-serif;
   color: #333;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 /* === Grid System === */
 .full-width {
@@ -13,34 +14,142 @@ body {
   margin: 0 auto; }
 
 .half-width {
-  width: 50%;
-  float: left; }
-
-.third-width {
-  width: 30%;
-  float: left; }
+  width: 100%; }
 
 /* == Header == */
 header {
   background-color: #d4e3f0;
   background-size: cover;
   color: #757c83;
-  width: 75%;
-  top: 0; }
+  width: 100%;
+  height: 150px; }
+  header .third-width {
+    width: 100%;
+    float: left; }
+  header .logo {
+    width: 10%;
+    float: left; }
   header img {
-    height: 370px; }
+    height: 150px; }
+  header .site-name {
+    width: 40%;
+    float: left;
+    padding: 23px 15px; }
   header h1 {
     font-family: "Overlock", cursive;
-    font-size: 30px;
-    text-align: center; }
+    font-size: 30px; }
   header nav ul li {
-    line-height: 32px;
-    padding: 5px 0;
-    list-style-type: none; }
+    padding: 50px 30px;
+    display: inline-block; }
   header nav ul li a {
     color: #757c83;
     text-decoration: none; }
   header nav ul li a:hover {
     color: #9ea2ac; }
+
+/* == Newsletter == */
+#newsletter {
+  background-image: url("https://cdn.pixabay.com/photo/2018/03/06/17/40/fabric-3204066_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%; }
+  #newsletter .form-text {
+    padding: 80px 0px; }
+  #newsletter h2 {
+    font-size: 25px;
+    font-family: "Overlock", cursive;
+    color: #757c83;
+    text-align: center; }
+  #newsletter form .form-container {
+    margin-left: 100px; }
+  #newsletter form input {
+    font-size: 20px;
+    font-family: "PT Sans", sans-serif;
+    padding: 5px;
+    width: 70%; }
+  #newsletter form button {
+    background-color: #757c83;
+    border: 1px solid #757c83;
+    color: #f9ffff;
+    font-size: 20px;
+    font-family: "PT Sans", sans-serif;
+    padding: 5px; }
+
+/* == Projects == */
+#projects {
+  width: 100%;
+  padding: 40px 0; }
+  #projects .third-width {
+    width: 100%; }
+  #projects h3 {
+    font-size: 20px;
+    font-family: "Overlock", cursive;
+    color: #757c83;
+    text-align: center; }
+  #projects h4 {
+    font-size: 20px;
+    font-family: "Overlock", cursive;
+    color: #757c83;
+    text-align: center; }
+  #projects p {
+    line-height: 32px;
+    padding: 20px; }
+  #projects img {
+    width: 100%; }
+
+/*== Classes ==*/
+#classes {
+  width: 100%;
+  padding: 40px 0; }
+  #classes h2 {
+    font-size: 25px;
+    font-family: "Overlock", cursive;
+    color: #757c83;
+    text-align: center; }
+  #classes p {
+    line-height: 32px;
+    padding: 20px; }
+  #classes iframe {
+    width: 100%;
+    height: 500px; }
+
+/* == Prices == */
+#prices {
+  width: 100%;
+  padding: 20px 0; }
+  #prices .third-width {
+    padding: 15px 0; }
+  #prices h3 {
+    font-family: "Overlock", cursive;
+    color: #757c83;
+    font-size: 20px;
+    text-align: center; }
+  #prices h4 {
+    text-align: center;
+    font-family: "Overlock", cursive;
+    font-size: 20px; }
+  #prices p {
+    line-height: 32px;
+    padding: 20px; }
+  #prices button {
+    background-color: #757c83;
+    border: 1px solid #757c83;
+    color: #f9ffff;
+    font-size: 20px;
+    font-family: "PT Sans", sans-serif;
+    width: 100%;
+    margin-top: 10px; }
+
+/*== Footer ==*/
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: #d4e3f0;
+  background-size: cover; }
+  footer p {
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center; }
 
 /*# sourceMappingURL=tablet.css.map */
