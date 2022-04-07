@@ -13,6 +13,8 @@ body {
     font-size: 20px;
     font-family: $paragraph-font;
     color: $black;
+    display: flex;
+    flex-direction: column;
 }
 
 /* === Grid System === */ 
@@ -26,8 +28,8 @@ header {
     background-color: $light-blue;
     background-size: cover;
     color: $dark-gray;
-    height: 670px;
-    border: 2px solid red;
+    width: 75%;
+    top: 0;
 
     img {
         height: 370px;
@@ -60,11 +62,11 @@ header {
     background-image: url("https://cdn.pixabay.com/photo/2018/03/06/17/40/fabric-3204066_960_720.jpg");
     background-size: cover;
     background-position: center;
-    height: 300px;
-    width: 80%;
+    height: 350px;
+    width: 75%;
     
     .form-text {
-        padding: 75px 0;
+        padding: 95px 15px;
     }
 
     h2 {
@@ -72,5 +74,126 @@ header {
         font-family: $headline-font;
         color: $dark-gray;
         text-align: center;
+    }
+
+    form {
+        input {
+            font-size: 20px;
+            font-family: $paragraph-font;
+            padding: 5px;
+        }
+
+        button {
+            background-color: $dark-gray;
+            border: 1px solid $dark-gray;
+            color: $white; 
+            font-size: 20px;
+            font-family: $paragraph-font;
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+}
+
+/* == Projects == */ 
+#projects {
+    width: 75%; 
+    height: 100%;
+
+    h3 {
+        font-size: 20px;
+        font-family: $headline-font;
+        color: $dark-gray;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 20px;
+        font-family: $headline-font;
+        color: $dark-gray; 
+        text-align: center;
+    }
+
+    p {
+        line-height: 32px; 
+        padding: 20px;
+    }
+
+    img {
+        height: 180px;
+    }
+}
+
+/*== Classes ==*/ 
+#classes {
+    height: 100%;
+    width: 75%;
+
+    h2 {
+        font-size: 25px; 
+        font-family: $headline-font; 
+        color: $dark-gray; 
+        text-align: center;
+    }
+
+    p {
+        line-height: 32px;
+        padding: 20px;
+    }
+
+    iframe {
+        width: 270px;
+    }
+}
+
+/* == Prices == */ 
+#prices {
+    width: 75%; 
+    height: 100%;
+    padding: 20px 0;
+
+    .third-width {
+        padding: 15px 0;
+    }
+
+    h3 {
+        font-family: $headline-font; 
+        color: $dark-gray; 
+        font-size: 20px; 
+        text-align: center;
+    }
+
+    h4 {
+        text-align: center;
+        font-family: $headline-font;
+        font-size: 20px; 
+    }
+
+    p {
+        line-height: 32px;
+        padding: 20px;
+    }
+
+    button {
+        background-color: $dark-gray;
+        border: 1px solid $dark-gray;
+        color: $white; 
+        font-size: 20px;
+        font-family: $paragraph-font;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+/*== Footer ==*/ 
+footer {
+    width: 75%; 
+    height: 100px;
+    background-color: $light-blue;
+    background-size: cover;
+
+    p {
+        font-size: 16px; 
+        line-height: 32px;
     }
 }

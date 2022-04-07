@@ -15,3 +15,4 @@ I will not be accepting any pull requests.
 * freeCodeCamp 
 * [ColorPalettes.net](https://colorpalettes.net/color-palette-2510/)
 * Sass 
+* CSS-Tricks
