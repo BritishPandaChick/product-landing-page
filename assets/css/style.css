@@ -1,38 +1,40 @@
+/* Sass Variables */
 /* === Media Queries === */
-@media (max-height: 375px) {
-  h1 {
-    font-size: 42px; }
-
-  h2 {
-    font-size: 42px; }
-
-  h3 {
-    font-size: 42px; }
-
-  p {
-    font-size: 16px; } }
+@media (hover: hover) {
+  .button:hover {
+    border: 1px solid #333;
+  }
+}
+@media (hover: hover) and (color) {
+  .button:hover {
+    border-color: #757c83;
+  }
+}
 /* === Base Styles === */
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   color: #333;
-  background-color: #f9ffff;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+}
 
 /* === Grid Systems === */
 .full-width {
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .half-width {
   width: 50%;
-  float: left; }
+  float: left;
+}
 
 .third-width {
   width: 30%;
-  float: left; }
+  float: left;
+}
 
 /* === Header === */
 header {
@@ -42,26 +44,34 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 135px; }
-  header .logo {
-    width: 10%;
-    float: left; }
-  header img {
-    height: 125px; }
-  header .site-name {
-    width: 40%;
-    float: left; }
-  header h1 {
-    font-size: 45px;
-    font-family: "Overlock", cursive; }
-  header nav ul li {
-    display: inline-block;
-    padding: 40px 30px; }
-  header nav ul li a {
-    color: #757c83;
-    text-decoration: none; }
-  header nav ul li a:hover {
-    color: #9ea2ac; }
+  height: 120px;
+}
+header .logo {
+  width: 10%;
+  float: left;
+}
+header img {
+  height: 100px;
+}
+header .site-name {
+  width: 40%;
+  float: left;
+}
+header h1 {
+  font-size: 45px;
+  font-family: "Overlock", cursive;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 40px 30px;
+}
+header nav ul li a {
+  color: #757c83;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: #9ea2ac;
+}
 
 /*== Newsletter ==*/
 #newsletter {
@@ -69,101 +79,129 @@ header {
   width: 100%;
   background-image: url("https://cdn.pixabay.com/photo/2018/03/06/17/40/fabric-3204066_960_720.jpg");
   background-size: cover;
-  background-position: center; }
-  #newsletter .form-text {
-    padding: 155px 0; }
-  #newsletter h2 {
-    font-size: 35px;
-    font-family: "Overlock", cursive;
-    text-align: center;
-    color: #757c83; }
-  #newsletter form {
-    display: flex; }
-    #newsletter form .form-container {
-      margin-left: 200px; }
-    #newsletter form input {
-      width: 70%;
-      font-size: 20px;
-      padding: 5px;
-      font-family: "PT Sans", sans-serif; }
-    #newsletter form button {
-      background-color: #757c83;
-      border: 1px solid #757c83;
-      color: #f9ffff;
-      font-size: 20px;
-      padding: 5px;
-      font-family: "PT Sans", sans-serif; }
+  background-position: center;
+}
+#newsletter .form-text {
+  padding: 155px 0;
+}
+#newsletter h2 {
+  font-size: 35px;
+  font-family: "Overlock", cursive;
+  text-align: center;
+  color: #757c83;
+}
+#newsletter form .form-container {
+  margin-left: 200px;
+}
+#newsletter form input {
+  width: 70%;
+  font-size: 20px;
+  padding: 5px;
+  font-family: "PT Sans", sans-serif;
+}
+#newsletter form button {
+  background-color: #757c83;
+  border: 1px solid #757c83;
+  color: #f9ffff;
+  font-size: 20px;
+  padding: 5px;
+  font-family: "PT Sans", sans-serif;
+}
 
 /* == Projects == */
 #projects {
-  height: 850px;
-  padding: 40px; }
-  #projects h3 {
-    font-size: 30px;
-    font-family: "Overlock", cursive;
-    color: #757c83;
-    text-align: center; }
-  #projects h4 {
-    font-size: 25px;
-    font-family: "Overlock", cursive;
-    color: #757c83;
-    text-align: center; }
-  #projects .third-width {
-    margin-right: 35px; }
-  #projects p {
-    line-height: 32px; }
-  #projects img {
-    width: 100%; }
+  height: 900px;
+  padding: 40px 0;
+}
+#projects h3 {
+  font-size: 30px;
+  font-family: "Overlock", cursive;
+  color: #757c83;
+  text-align: center;
+}
+#projects h4 {
+  font-size: 25px;
+  font-family: "Overlock", cursive;
+  color: #757c83;
+  text-align: center;
+}
+#projects .third-width {
+  margin-left: 25px;
+}
+#projects p {
+  line-height: 32px;
+  padding: 20px;
+}
+#projects img {
+  width: 100%;
+}
 
 /* == Classes == */
 #classes {
-  padding: 40px;
-  height: 500px; }
-  #classes h2 {
-    font-size: 35px;
-    font-family: "Overlock", cursive;
-    color: #757c83;
-    text-align: center; }
-  #classes p {
-    line-height: 32px;
-    padding: 0 30px; }
-  #classes iframe {
-    width: 90%;
-    height: 400px; }
+  padding: 40px 0;
+  width: 100%;
+  height: 500px;
+}
+#classes h2 {
+  font-size: 35px;
+  font-family: "Overlock", cursive;
+  color: #757c83;
+  text-align: center;
+}
+#classes p {
+  line-height: 32px;
+  padding: 20px;
+}
+#classes iframe {
+  width: 90%;
+  height: 400px;
+}
 
 /* == Prices ==*/
 #prices {
-  height: 650px;
-  padding: 40px; }
-  #prices .third-width {
-    margin-right: 30px; }
-  #prices h3 {
-    font-family: "Overlock", cursive;
-    text-align: center;
-    color: #757c83;
-    font-size: 30px; }
-  #prices h4 {
-    text-align: center;
-    font-family: "Overlock", cursive;
-    font-size: 25px; }
-  #prices p {
-    line-height: 32px; }
-  #prices button {
-    background-color: #757c83;
-    color: #f9ffff;
-    font-size: 20px;
-    border: 2px solid #757c83;
-    padding: 5px;
-    font-family: "PT Sans", sans-serif; }
+  height: 750px;
+  width: 100%;
+  padding: 20px 0;
+}
+#prices .third-width {
+  margin-left: 30px;
+}
+#prices h3 {
+  font-family: "Overlock", cursive;
+  text-align: center;
+  color: #757c83;
+  font-size: 30px;
+}
+#prices h4 {
+  text-align: center;
+  font-family: "Overlock", cursive;
+  font-size: 25px;
+}
+#prices p {
+  line-height: 32px;
+  padding: 20px;
+}
+#prices button {
+  background-color: #757c83;
+  color: #f9ffff;
+  font-size: 20px;
+  border: 2px solid #757c83;
+  padding: 5px;
+  margin: 20px;
+  font-family: "PT Sans", sans-serif;
+}
 
 /* === Footer === */
 footer {
   background-color: #d4e3f0;
+  background-size: cover;
   padding: 10px 0;
-  width: 100%; }
-  footer p {
-    color: #757c83;
-    font-size: 16px;
-    text-align: center; }
+  width: 100%;
+}
+footer p {
+  color: #757c83;
+  font-size: 16px;
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */
