@@ -9,6 +9,30 @@ body {
     flex-wrap: wrap;
 }
 
+/* == Media Queries ==*/ 
+@media (max-height: 300px) {
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    h1 {
+      font-size: 30px;
+    }
+    
+    h2 {
+      font-size: 25px;
+    }
+    
+    h3 {
+      font-size: 20px;
+    }
+    
+    h4 {
+      font-size: 20px;
+    }
+  }
+
 /*=== Grid System ===*/
 .full-width {
     width: 100%;
