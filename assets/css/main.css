@@ -146,3 +146,73 @@ nav ul li a:hover {
     width: 100%;
     height: 500px;
 }
+
+#classes h2 {
+    font-size: 35px;
+    font-family: "Overlock", cursive;
+    color: #757c83;
+    text-align: center;
+}
+
+#classes p {
+    line-height: 32px;
+    padding: 20px;
+}
+
+#classes iframe {
+    width: 90%;
+    height: 400px;
+}
+
+/* == Prices ==*/ 
+#prices {
+    height: 750px; 
+    width: 100%; 
+    padding: 20px 0; 
+}
+
+#prices .third-width {
+    margin-left: 30px;
+}
+
+#prices h3 {
+    font-family: "Overlock", cursive; 
+    color: #757c83;
+    text-align: center;
+    font-size: 30px;
+}
+
+#prices h4 {
+    text-align: center;
+    font-family: "Overlock", cursive;
+    font-size: 25px;
+}
+
+#prices p {
+    line-height: 32px;
+    padding: 20px;
+}
+
+#prices button {
+    background-color: #757c8e;
+    color: #f9ffff;
+    font-size: 20px;
+    border: 2px solid #757c83;
+    padding: 5px; 
+    margin: 20px; 
+    font-family: "PT Sans", sans-serif;
+}
+
+/* == Footer ==*/ 
+footer {
+    background-color: #d4e3f0;
+    background-size: cover; 
+    padding: 10px 0; 
+    width: 100%;
+}
+
+footer p {
+    color: #757c8e;
+    font-size: 16px;
+    text-align: center;
+}
