@@ -1,15 +1,13 @@
 # Product Landing Page
-Free Code Camp Responsive Web Design project. Product Landing Page. 
+freecodecamp product landing page project from the responsive web design certification.
 
-## Dependencies 
+## Tech Stack
 * HTML
 * CSS
 
 ## Instructions
-Clone or download zip file. Open index.html file in your browser.
-
-## Contributing
-I will not be accepting any pull requests.
+1. Clone or download zip file. 
+2. Open index.html file in your browser.
 
 ## Acknowledgements
 * freeCodeCamp 
